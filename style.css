@@ -242,6 +242,40 @@ footer {
 
     transform: translateY(-2px);
 }
+/* =========================
+   返回管理人協議
+========================= */
+
+.agreement-return {
+    margin-top: 40px;
+    padding-top: 30px;
+
+    border-top: 1px solid #e5e7eb;
+
+    text-align: center;
+}
+
+.back-to-agreement {
+    display: inline-block;
+
+    padding: 12px 30px;
+
+    background-color: #02a325;
+    color: #ffffff;
+
+    border-radius: 7px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    transition: background-color 0.2s ease;
+}
+
+.back-to-agreement:hover {
+    background-color: #018a20;
+}
 
 /* =========================
    手機版
@@ -306,4 +340,5 @@ footer {
         right: 16px;
         bottom: 16px;
     }
+
 }
